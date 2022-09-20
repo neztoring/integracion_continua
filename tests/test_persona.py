@@ -32,6 +32,8 @@ class PersonaTestCase(unittest.TestCase):
       self.assertTrue(self.persona2.dar_nombre()=='Felipe')
       self.assertTrue(self.persona2.dar_edad()==28)
 
+
+
    def test_objetos_iguales(self):
       persona_nueva = self.persona1
       self.assertIsNot(self.persona1, self.persona3)
