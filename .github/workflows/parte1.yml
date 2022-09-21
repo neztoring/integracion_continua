@@ -27,7 +27,7 @@ jobs:
         target-branch: ${{ github.ref }}
     - name: Correr pruebas
       id: correr-pruebas
-      run: python -m unittest -v tests
+      run: python -m unittest discover -s tests -v
     - name: Validar resultado con errores
       if: ${{ failure() }}
       env:
