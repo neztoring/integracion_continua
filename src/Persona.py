@@ -26,3 +26,4 @@ class Persona:
        else:
            return (anio_actual - self.__edad + 1)
   #Cambio1 funcionalidad
+  #Cambio1 fin funcionalidad
